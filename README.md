@@ -15,7 +15,7 @@ I observed that farmers often struggle to advertise their services and products 
    - [UserService Repository](https://github.com/d2j1/agripulse-user-service)
 
 2. **ContentService**
-   - Completed CRUD operations for posts.
+   - ContentService handles the CRUD operations for posts and comments in the Agripulse project.
    - [ContentService Repository](https://github.com/d2j1/agripulse-content-service)
 
 ## Technologies Used
@@ -46,18 +46,18 @@ I observed that farmers often struggle to advertise their services and products 
 1. Clone the repositories:
    
 ```sh
-git clone link-to-UserService-repo
-git clone link-to-ContentService-repo
+git clone https://github.com/d2j1/agripulse-user-service.git
+git clone https://github.com/d2j1/agripulse-content-service.git
 ```
 
 2. Navigate to each service directory and run the application:
 
 ```sh
-cd UserService
+cd agripulse-user-service
 mvn spring-boot:run
 ```
 ```sh
-cd ContentService
+cd agripulse-content-service
 mvn spring-boot:run
 ```
 3. Use Postman or a similar tool to interact with the services.
