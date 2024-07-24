@@ -1,7 +1,9 @@
-# Agripulse Project Collection
+# Agripulse Project
 
-Welcome to the Agripulse Project Collection! This project is designed to support farmers by providing a platform where they can post their products for sale, search for products to buy, and manage rental requests. For example, if a farmer needs to rent a tractor for a day, they can easily find related posts. Similarly, farmers can post available rental equipment or services. While a tractor is used as an example, the platform supports a wide range of products and services.
+Welcome to the Agripulse Project Collection! This project is designed with the help of microservices architecture to support farmers by providing a platform where they can post their products for sale, search for products to buy, and manage rental requests. For example, if a farmer needs to rent a tractor for a day, they can easily find related posts. Similarly, farmers can post available rental equipment or services. While a tractor is used as an example, the platform supports a wide range of products and services.
 
+### Keywords
+- Microservices, Productivity, Web Based, Agriculture, Farmers, Farm Management, Agricultural Trading.
 ## Project Overview
 
 ### Inspiration
@@ -17,15 +19,10 @@ I observed that farmers often struggle to advertise their services and products 
    - [ContentService Repository](https://github.com/d2j1/agripulse-content-service)
 
 ## Technologies Used
-- Java, Spring Security
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- JUnit
-- Mockito
-- Postman
-- IntelliJ IDEA
-- Maven
+- Java, Spring Boot, Spring Security
+- MySQL, Spring Data JPA
+- JUnit, Mockito
+- Postman, IntelliJ IDEA, Maven
 
 ## Repositories
 
@@ -47,10 +44,11 @@ I observed that farmers often struggle to advertise their services and products 
 
 ### Running the Services
 1. Clone the repositories:
-   ```sh
-   git clone link-to-UserService-repo
-   git clone link-to-ContentService-repo
-   ```
+   
+```sh
+git clone link-to-UserService-repo
+git clone link-to-ContentService-repo
+```
 
 2. Navigate to each service directory and run the application:
 
