@@ -17,7 +17,7 @@ I observed that farmers often struggle to advertise their services and products 
    - [ContentService Repository](https://github.com/d2j1/agripulse-content-service)
 
 ## Technologies Used
-- Java
+- Java, Spring Security
 - Spring Boot
 - Spring Data JPA
 - MySQL
@@ -50,3 +50,22 @@ I observed that farmers often struggle to advertise their services and products 
    ```sh
    git clone link-to-UserService-repo
    git clone link-to-ContentService-repo
+   ```
+
+2. Navigate to each service directory and run the application:
+
+```sh
+cd UserService
+mvn spring-boot:run
+```
+```sh
+cd ContentService
+mvn spring-boot:run
+```
+3. Use Postman or a similar tool to interact with the services.
+
+## Contributing
+We'd like to hear from you about contributions to improve Agripulse. Please fork the repositories and submit pull requests with detailed explanations of your changes.
+
+## Contact
+For any questions or suggestions, please open an issue in the respective repositories or contact me at [dhananjayjadhav2151@gmail.com].
